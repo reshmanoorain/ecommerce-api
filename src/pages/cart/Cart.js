@@ -1,10 +1,8 @@
 function Cart() {
     return (
       <div>
-        <h1>Cart</h1>
-        <p>
-          This is the Cart page.
-        </p>
+        <h3 style={{textAlign:"center", marginTop:"40px"}}> Cart is empty. </h3>
+        
       </div>
     );
   }

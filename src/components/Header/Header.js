@@ -1,14 +1,13 @@
 import { Link } from 'react-router-dom';
-
 import styles from "./styles.module.css";
 
 function Header() {
   return (
-    <header>
+    <header className={styles.product}>
       <ul>
-        <Link to="/"><li>access_</li></Link>
-        <Link to="/cart"><li>cart</li></Link>
-        <Link to="/authentication"><li>login/signup</li></Link>
+        <Link to="/"><li>Product Page</li></Link>
+        <Link to="/cart"><li>Cart</li></Link>
+        <Link to="/authentication"><li>Login/signup</li></Link>
       </ul>
     </header>
   );

@@ -31,10 +31,10 @@ function Home() {
     return (
       <div className={styles.loader_container}>
         <Loader
-          type="Puff"
+          type="Bars"
           color="#000000"
-          height={100}
-          width={100}
+          height={200}
+          width={200}
         />
       </div>
     );
